@@ -1,5 +1,3 @@
-$:.unshift File.dirname(__FILE__)
-
 require 'faker/address'
 require 'faker/company'
 require 'faker/internet'
