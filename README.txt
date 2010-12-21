@@ -1,6 +1,12 @@
-= Faker
+= This Fork of Faker
 
 This forked version of Faker fixes the annoying Ruby 1.9 deprecation warning "Object#returning has been deprecated in favor of Object#tap."
+
+on your Gemfile put:
+
+gem 'faker', :git => "git://github.com/martianinteractive/faker.git"
+
+= Faker
 
 A port of Perl's Data::Faker library that generates fake data.
 
