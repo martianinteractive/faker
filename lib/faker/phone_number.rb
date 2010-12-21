@@ -1,8 +1,8 @@
-module Faker19
+module Faker
   class PhoneNumber
     class << self
       def phone_number
-        Faker19.numerify(Formats.rand)
+        Faker.numerify(Formats.rand)
       end
     end
       

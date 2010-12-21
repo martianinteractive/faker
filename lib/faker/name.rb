@@ -1,4 +1,4 @@
-module Faker19
+module Faker
   class Name
     class << self
       def name

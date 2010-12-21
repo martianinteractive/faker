@@ -3,8 +3,8 @@ $:.push File.expand_path("../lib", __FILE__)
 require "faker/version"
 
 Gem::Specification.new do |s|
-  s.name        = "faker19"
-  s.version     = Faker19::VERSION
+  s.name        = "faker"
+  s.version     = Faker::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Benjamin Curtis"]
   s.email       = ["benjamin.curtis@gmail.com"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{A port of Perl's Data::Faker - Generates fake names, phone numbers, etc.}
   s.description = %q{A port of Perl's Data::Faker - Generates fake names, phone numbers, etc.}
   
-  s.rubyforge_project = "faker19"
+  s.rubyforge_project = "faker"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

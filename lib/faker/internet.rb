@@ -1,4 +1,4 @@
-module Faker19
+module Faker
   class Internet
     class << self
       def email(name = nil)

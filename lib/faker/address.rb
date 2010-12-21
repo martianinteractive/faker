@@ -1,8 +1,8 @@
-module Faker19
+module Faker
   class Address
     class << self
       def zip_code
-        Faker19.numerify(['#####', '#####-####'].rand)
+        Faker.numerify(['#####', '#####-####'].rand)
       end
       
       def us_state
@@ -42,7 +42,7 @@ module Faker19
       end
       
       def street_address(include_secondary = false)
-        Faker19.numerify([
+        Faker.numerify([
           '##### %s' % street_name,
           '#### %s' % street_name,
           '### %s' % street_name
@@ -50,7 +50,7 @@ module Faker19
       end
       
       def secondary_address
-        Faker19.numerify([
+        Faker.numerify([
           'Apt. ###',
           'Suite ###'
         ].rand)
@@ -66,7 +66,7 @@ module Faker19
       end
       
       def uk_postcode
-        Faker19.bothify([
+        Faker.bothify([
           '??# #??',
           '??## #??'
         ].rand).upcase

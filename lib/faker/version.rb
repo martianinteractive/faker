@@ -1,3 +1,3 @@
-module Faker19 #:nodoc:
+module Faker #:nodoc:
   VERSION = "0.3.1"
 end
