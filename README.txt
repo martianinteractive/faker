@@ -1,5 +1,9 @@
 = Faker
 
+This forked version of Faker fixes the annoying Ruby 1.9 deprecation warning "Object#returning has been deprecated in favor of Object#tap."
+
+Install using: gem install faker19 --pre
+
 A port of Perl's Data::Faker library that generates fake data.
 
 == Usage
